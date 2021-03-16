@@ -8,7 +8,7 @@
 
 # Introduction
 
-Dockerfile to build MySql container image with loaded sql schema.
+Dockerfile to build MySql container image with loaded sql schema using ubuntu base image.
 
 # Installation
 
