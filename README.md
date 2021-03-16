@@ -1,6 +1,6 @@
 # docker-mysql
 
-# Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [manually-checking/verify](#manually-checking)
@@ -14,22 +14,22 @@ Dockerfile to build MySql container image with loaded sql schema.
 
 1) Pull the code i.e. run the following command on terminal
 
-'''bash
+''' bash
 git clone https://github.com/sumitgadade/docker-mysql
 '''
 
 2) Go to clone repo directory 
-'''bash
+''' bash
 cd docker-mysql
 '''
 
 3) Build the Image
-'''bash
+''' bash
 docker build . -t my-mysql
 '''
 
 4) creating container of my-mysql image
-'''bash
+''' bash
 docker run -itd -p 8081:4040 my-mysql
 '''
 
@@ -40,36 +40,36 @@ docker run -itd -p 8081:4040 my-mysql
 Commands:
 
 1) Running container
-'''bash
+''' bash
 docker exec -it container_id bash
 '''
 here container_id is the id of container which created by using my-mysql image
 
 2) after entering in to bash starting mysql service
-'''bash
+''' bash
 service mysql start
 '''
 
 3) start mysql with username = pucsd and password = pucsd
-'''bash
+''' bash
 mysql -u pucsd -p pucsd
 '''
 
 4) After successfull login with MySQL check the database 
-'''bash
+''' bash
 show databases;
 '''
 after this we can see database pucsdStudents
 
 5) using database pucsdStudents
-'''bash
+''' bash
 use pucsdStudents;
 '''
 6) check tables or relations 
-'''bash
+''' bash
 show tables;
 '''
 7) select data from table StudentData
-'''bash
+''' bash
 select * from studentData;
 '''
