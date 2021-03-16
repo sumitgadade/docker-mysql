@@ -33,9 +33,9 @@ docker build . -t my-mysql
 docker run -itd -p 8081:4040 my-mysql
 '''
 
-# for checking manually/verify whether mysql is installed or not and database created or not
+## for checking manually/verify whether mysql is installed or not and database created or not
 
-# manually-checking
+## manually-checking
 
 Commands:
 
