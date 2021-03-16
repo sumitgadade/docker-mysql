@@ -1,16 +1,16 @@
-#docker-mysql
+# docker-mysql
 
-#Table of Contents
+# Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [manually-checking/verify](#manually-checking)
 
 
-#Introduction
+# Introduction
 
 Dockerfile to build MySql container image with loaded sql schema.
 
-#Installation
+# Installation
 
 1) Pull the code i.e. run the following command on terminal
 
